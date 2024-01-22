@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sliders {
+    width: 100%;
+    height: 650px;
+    background-image: url("https://themewagon.github.io/famms/images/slider-bg.jpg");
+    background-size: 100% 650px;
+}
+
+.slick-slider {
+    width: 550px;
+    height: 200px;
+}
+
+.slider1 {
+    width: 100%;
+    height: 100%;
+    margin-top: 20%;
+    padding: 10px;
+}
+
+.slider11 {
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+    position: relative;
+}
+
+.slider11 button {
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.slider11 h1 {
+    color: orangered;
+}
+
+.sliders .slick-dots {
+    position: absolute;
+    top: 200%;
+    left: 3%;
+
+}
+.sliders .slick-dots li button:before {
+     position: absolute;
+    top: 200%;
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    content: '';
+    background-color: black;
+    border-radius: 50%;
+    text-align: center;
+    opacity: .25;
+    color: orangered;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.sliders .slick-prev:before,
+.slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: none;
+}
+.subscribe {
+    width: 100%;
+    height: 300px;
+   background-color: #d4ced0;
+}
+
+.subscribe1 {
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    flex-direction: column;
+}
+
+.subscribe1 input {
+    width: 600px;
+    padding: 10px;
+    font-size: 20px;
+    margin: 20px;
+    border-radius: 10px;
+
+}
+
+.subscribe1 button {
+    background-color: orangered;
+
+}
+.homefooter {
+    height: 400px;
+    background-color: rgb(233, 227, 229);
+    display: grid;
+    grid-template-columns: 30% 20% 20% 23%;
+    align-items: center;
+    justify-content: center;
+}
+
+.homefooter h4 {
+    font-size: 20px;
+}
+
+.Newslerrer input {
+    width: 80px;
+    padding: 17px;
+    margin-top: 10px;
+}
+
+.Newslerrer button {
+    background-color: orangered;
+    border-radius: 0;
+    margin: 0;
+    padding: 13px;
+    margin-top: 10px;
+}
+@media screen and (max-width:992px){
+    .slider11 {
+        font-size: 15px;
+        margin: 20px;
+    }
+}
+@media screen and (max-width:768px) {
+    .sliders{
+        background-size: 100% 750px;
+    }
+    .subscribe1 input {
+        width: 400px;
+    }
+    .homefooter {
+        grid-template-columns: 20% 20% 20% 20%;
+    }
+    .homefooter h4 {
+        font-size: 10px;
+    }
+   
+}
+
+@media screen and (max-width:600px) {
+    .slick-slider{
+        width: 350px;
+    }
+   
+    .subscribe1 h1{
+        font-size: 20px;
+    }
+    .subscribe1 p{
+        text-align: center;
+        font-size: 10px;
+    }
+    .subscribe1 input{
+        width: 60%;
+        height: 40px;
+    }
+    .subscribe1 button{
+      font-size: 10px;
+    }
+   
+    .homefooter{
+        font-size: 10px;
+        grid-template-columns: 30% 30% ;
+    }
+    .homefooter h4{
+        font-size: 10px;
+    }
+    .homefooter input , button{
+        font-size: 15px;
+        padding: 5px;
+    }
+   
+
+.pages {
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    display: none;
+    background-color: white;
+    color: black;
+    border: 2px solid #002c3e;
+}
+}
+

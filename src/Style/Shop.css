@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main2-2 {
+    width: 100%;
+    height: 400px;
+}
+
+.main2-2 h1 {
+    text-align: center;
+    margin-top: 3%;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.main2 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-items: center;
+    /* margin-left: 100px; */
+    margin-top: 90px;
+}
+
+.c {
+    width: 33%;
+    height: 100%;
+    background-color: #002c3e;
+    margin: 20px;
+    text-align: center;
+    padding-top: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: whitesmoke;
+
+}
+
+.c:hover {
+    box-shadow: 10px 10px 7px 3px #73787b;
+    transform: scale(1.05);
+    transition: 0.6s;
+}
+
+.c .fa-solid {
+    font-size: 40px;
+}
+.main {
+    width: 100%;
+    height: 80px;
+    background-color: orangered;
+   margin-top: 8%;
+    text-align: center;
+    color: whitesmoke;
+  
+
+}
+.main h2 {
+    font-weight: 700;
+    font-size: 43px;
+   
+}
+/*Arrivals.css*/
+.main3 {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background-image: url(https://technext.github.io/famms/images/arrival-bg.png);
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+    margin-top: 7%;
+
+}
+
+.main4 {
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    top: 25%;
+    right: 20%;
+
+}
+
+.main4 button {
+    background-color: orangered;
+}
+
+
+@media screen  and (max-width:768px){
+    .main2 {
+        width: 100%;
+    }
+
+    .c {
+        background-color: #002c3e;
+        margin: 10px;
+        font-size: 20px;
+       
+    }
+    .main3{
+        height: 600px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .main2-2{
+    margin-bottom: 80%;
+   }
+    .main2-2 h1{
+        font-size: 20px;
+    }
+    .main2 {
+        width: 100%;
+      display: inline-block;
+    }
+    /* .main {
+        margin-top: 20%; 
+       
+    } */
+    .c {
+        width: 60%;
+        height: 200px;
+        background-color: #002c3e;
+        margin-left: 90px;
+        font-size: 15px;
+    }
+   
+    .main4 {
+        width: 25%;
+        top: 10%;
+       font-size: 13px;
+    color: black;
+       
+    }
+    .main4 button {
+       font-size: 10px;
+    }
+}

@@ -18,7 +18,12 @@ const slice=data.slice(0,nofile)
     dispatch(put(a))
    }
 function visible(){
-  setfile(nofile + nofile)
+   if(nofile <=6){
+    setfile(nofile+6)
+}
+else{
+  setfile(!nofile + 6)
+}
 }
 
 
